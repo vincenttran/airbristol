@@ -41,7 +41,6 @@
     }
 
     @media @mobile {
-        min-height: 150px;
     }
 }
 
@@ -67,10 +66,10 @@
         height: 700px;
     }
     @media @tablet {
-        height: @value__feature--height--tablet;
+
     }
     @media @mobile {
-        height: @value__feature--height--mobile;
+
     }
 
 }
@@ -198,15 +197,12 @@
     z-index: 9999;
     opacity: .6;
     width: 100%;
-
-    @media @bp-global-medium {
-        top: @value__feature--height--tablet;
-    }
+    
     @media @tablet {
-        top: calc(@value__feature--height--tablet - 100px);
+        top: calc(600px);
     }
     @media @mobile {
-        display: none;
+
     }
 }
 
