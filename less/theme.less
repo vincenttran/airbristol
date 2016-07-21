@@ -380,11 +380,15 @@ body {
     -ms-flex-align: center;
     align-items: center;
     // Layout
-    padding: 2%;
+    padding: 0 2%;
+
+    @media @tablet {
+        padding: 10px 2%;
+    }
 
     .profile__socialicons {
         @media @mobile {
-            margin: 20px 0;
+            margin: 0 0px 10px;
         }
     }
     .content {
